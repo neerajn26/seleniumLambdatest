@@ -77,7 +77,7 @@ public class TestNGTodo1 {
         driver.findElement(By.name("li7")).click();
 
         System.out.println("Checking Another Box");
-        driver.findElement(By.name("li8")).click();
+        driver.findElement(By.name("li")).click();
         Thread.sleep(300);
 
         System.out.println("Entering Text");
